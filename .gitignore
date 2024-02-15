@@ -1,3 +1,8 @@
+# ch3m
+.snakemake
+outputs/GDC
+outputs/RDS
+
 # History files
 .Rhistory
 .Rapp.history
