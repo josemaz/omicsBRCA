@@ -2,11 +2,11 @@
 
 ### Introduction
 
-This repository contains code and supplementary materials for paper XXXXXXX
+This repository contains code and supplementary materials for "Coordinated inflammation and immune
+response transcriptional regulation in breast cancer molecular subtypes"
 
 ### Authors
-Enrique Hernandez Lemus, Jose Maria Zamora-Fuentes, Jesus Espinal-Enriquez
-
+Tadeo E. Velázquez-Caldelas, Jose Maria Zamora-Fuentes, Enrique Hernández-Lemus
 ### Intructions
 
 1. Install R packages with script
