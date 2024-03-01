@@ -7,6 +7,15 @@ response transcriptional regulation in breast cancer molecular subtypes"
 
 ### Authors
 Tadeo E. Velázquez-Caldelas, Jose Maria Zamora-Fuentes, Enrique Hernández-Lemus
+
+### Important Notes
+
+- Minimum requeriments in hardware
+	- This pipeline requires about 30 Gb in space on disk
+	- 63 GB RAM
+	- 16 Cores CPU
+- About 3 hours of computing time in a server with 32 cores and 64Gb RAM. 
+
 ### Intructions
 
 1. Install R packages with script
@@ -26,6 +35,7 @@ mv extdata-20240104 extdata
 
 ```
 snakemake -c all all
+# /usr/bin/time -o  tiempo-pipeline.txt snakemake -j 1 all  &> salida &
 ```
 
 

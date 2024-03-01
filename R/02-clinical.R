@@ -4,7 +4,7 @@ suppressPackageStartupMessages({
 })
 
 #! Loading data
-rna.raw <- readRDS(file = "outputs/RDS/TCGA_BRCA-rna-raw.rds")
+rna.raw <- readRDS(file = "outputs/RDS/rna-raw.rds")
 
 ##############################################################
 #! Clinical analysis
@@ -56,8 +56,8 @@ table(df2$stage)
 tables.dir <- "outputs/tables"
 dir.create(tables.dir,recursive = TRUE)
 write.table(df2, file=paste0(tables.dir,'/BRCA-clinical.tsv'),
-
                         quote=FALSE, sep='\t', col.names = NA)
+
 # plots.dir <- "outputs/plots"
 # dir.create(plots.dir,recursive = TRUE)
 # png(paste0(plots.dir,'/BRCA-histogram-age.png'))

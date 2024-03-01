@@ -2,6 +2,10 @@
 .snakemake
 outputs/GDC
 outputs/RDS
+outputs/TCGA-data
+outputs/tables
+salida
+tiempo-pipeline.txt
 
 # History files
 .Rhistory
