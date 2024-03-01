@@ -24,7 +24,7 @@ Tadeo E. Velázquez-Caldelas, Jose Maria Zamora-Fuentes, Enrique Hernández-Lemu
 $ Rscript R/InstallPackage.R
 ```
 
-3. You can use *Snakefile* allocated in root path
+2. You can use *Snakefile* allocated in root path
 
 ```
 snakemake -j 1 all
