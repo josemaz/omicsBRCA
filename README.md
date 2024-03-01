@@ -16,7 +16,7 @@ Tadeo E. Velázquez-Caldelas, Jose Maria Zamora-Fuentes, Enrique Hernández-Lemu
 	- 16 Cores CPU
 - About 3 hours of computing time in a server with 32 cores and 64Gb RAM. 
 
-### Intructions
+### Instructions
 
 1. Install R packages with script
 
