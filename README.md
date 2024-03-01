@@ -11,7 +11,7 @@ Tadeo E. Velázquez-Caldelas, Jose Maria Zamora-Fuentes, Enrique Hernández-Lemu
 ### Important Notes
 
 - Minimum requeriments in hardware
-	- This pipeline requires about 30 Gb in space on disk
+	- This pipeline requires about 40 Gb in space on disk
 	- 63 GB RAM
 	- 16 Cores CPU
 - About 3 hours of computing time in a server with 32 cores and 64Gb RAM. 
@@ -24,13 +24,6 @@ Tadeo E. Velázquez-Caldelas, Jose Maria Zamora-Fuentes, Enrique Hernández-Lemu
 $ Rscript R/InstallPackage.R
 ```
 
-2. Uncompress extdata in root directory
-
-```
-unzip extdata-20240104.zip
-mv extdata-20240104 extdata
-```
-
 3. You can use *Snakefile* allocated in root path
 
 ```
@@ -39,7 +32,7 @@ snakemake -c all all
 ```
 
 
-### clean
+### Clean Project
 ```
-snakemake -c all clean
+snakemake -c all cleanAll
 ```

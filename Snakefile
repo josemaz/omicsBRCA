@@ -102,7 +102,11 @@ rule WriteTables:
 	shell:
 		"Rscript R/05-writeTables.R"
 
-rule cleanProj:
+rule cleanExtras:
 	shell:
 		"rm -rf outputs/plots outputs/RDS outputs/tables"
 
+
+rule cleanAll:
+    shell:
+        "rm -rf outputs"
