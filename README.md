@@ -27,8 +27,13 @@ $ Rscript R/InstallPackage.R
 3. You can use *Snakefile* allocated in root path
 
 ```
-snakemake -c all all
-# /usr/bin/time -o  tiempo-pipeline.txt snakemake -j 1 all  &> salida &
+snakemake -j 1 all
+```
+
+To profiling
+
+```
+/usr/bin/time -o  tiempo-pipeline.txt snakemake -j 1 all  &> salida &
 ```
 
 
